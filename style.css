@@ -1,0 +1,35 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.btn {
+    background: yellow;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+}
+
+.btn2 {
+    background: purple;
+    border-radius: 20px;
+    transition: all .3s;
+    display: none;
+}
+
+@media(min-width: 400px) {
+    .btn {
+        background: green;
+    }
+}
+
+@media(min-width: 600px) {
+    .btn {
+        background: pink;
+        border: 2px solid blue;
+    }
+
+    .btn2 {
+        display: inline-block;
+    }
+}
